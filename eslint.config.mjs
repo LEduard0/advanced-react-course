@@ -17,5 +17,5 @@ export default [
     "react/props-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off"
   }},
-  {extends: "next/core-web-vitals"}
+  {extends: ["next/core-web-vitals", "prettier"]}
 ];
