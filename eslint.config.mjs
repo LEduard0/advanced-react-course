@@ -23,5 +23,5 @@ export default [
       '@typescript-eslint/no-unused-vars': 'error'
     }
   },
-  { extends: ['next/core-web-vitals', 'prettier'] }
+  { extends: ['next/core-web-vitals'] }
 ]
