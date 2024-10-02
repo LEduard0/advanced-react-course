@@ -34,9 +34,9 @@
     "typescript-eslint": "^8.8.0"
   },
   "lint-staged": {
-    "*.js,*.jsx,*.ts,*.tsx": [
-      "npm format",
-      "npm lint --fix"
+    "src/*.{js,jsx,ts,tsx}": [
+      "npm run format",
+      "npm run lint"
     ]
   }
 }

@@ -1,0 +1,7 @@
+!.storybook
+!.jest
+build/
+coverage/
+node_modules/
+.next/
+.husky/

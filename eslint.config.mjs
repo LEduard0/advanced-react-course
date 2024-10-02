@@ -19,7 +19,8 @@ export default [
       'react/react-in-jsx-scope': false,
       'react-hooks/rules-of-hooks': 'error',
       'react/props-types': 'off',
-      '@typescript-eslint/explicit-module-boundary-types': 'off'
+      '@typescript-eslint/explicit-module-boundary-types': 'off',
+      '@typescript-eslint/no-unused-vars': 'error'
     }
   },
   { extends: ['next/core-web-vitals', 'prettier'] }
